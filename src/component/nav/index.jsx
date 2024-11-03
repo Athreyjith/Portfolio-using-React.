@@ -29,7 +29,7 @@ const Nav = () => {
                     </Link>
                 </div>
             
-            <ul className='navbar_container_menu'>
+            <ul className={`navbar_container_menu ${toggleicon ? "active" : " " }`}>
                 {
                     data.map((item,key)=> (
                         <li key={key} className='navbar_container_menu_item'> 
