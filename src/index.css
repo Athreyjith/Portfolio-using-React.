@@ -1,0 +1,26 @@
+:root{
+    --yellow-theme-background-color : #0a1158;
+    --yellow-theme-nav-background-color: #bfd027;
+    --yellow-theme-main-color: #a43611;
+    --yellow-theme-sub-text-color: #10a843;
+}
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+html {
+    font-size: 62.5%;
+    height: 100%;
+}
+
+body{
+    background-color: var(--yellow-theme-background-color);
+    height: 100%;
+}
+#root{
+    height:100%;
+}

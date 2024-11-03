@@ -1,0 +1,62 @@
+.navbar {
+    background-color: var( --yellow-theme-nav-background-color);
+    height: 80px;
+    display: flex;
+    font-size: 1.2rem;
+    justify-content: center;
+    align-items: center;
+
+    &_container{
+        display: flex;
+       width: 100%;
+       padding: 0px 20px;
+       height: inherit;
+       align-items:center;
+        flex:1;
+
+    &_logo{
+        color: var(--yellow-theme-main-color);
+        cursor: pointer;
+    }   
+
+    &_menu{
+        display: flex;
+        list-style: none;
+        text-align: center;
+        
+
+        &_item{
+            line-height: 40px;
+            font-size: 1.6rem;
+            margin-right: 2rem;
+
+            &::after{
+                content: '';
+                height: 3px;
+                width: 0%;
+                background: transparent;
+                display: block;
+                transition: all 0.5s ease;
+            }
+                &:hover::after{
+                    background-color: var(--yellow-theme-main-color);
+                    width: 100%;
+
+                }
+                &_link{
+                    color: var(--yellow-theme-sub-text-color);
+                    padding: 0% -0.5%;
+                    text-decoration:none;
+                    
+                }
+
+            }
+        }
+        
+    
+    }
+    &_baricons{
+        display: none;
+
+    }
+}
