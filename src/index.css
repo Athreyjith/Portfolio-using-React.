@@ -1,8 +1,9 @@
 :root{
-    --yellow-theme-background-color : #6d1010;
+    --yellow-theme-background-color : #931818;
     --yellow-theme-nav-background-color: #b3c515;
     --yellow-theme-main-color: #81410c;
-    --yellow-theme-sub-text-color: #3e624a;
+    --yellow-theme-sub-text-color: #d8a819;
+    --yellow-theme-border-color: #f40646;
 }
 
 *{
