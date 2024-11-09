@@ -18,20 +18,20 @@ console.log(navigate);
     return (
         <section id='home' className='home'>
 <div class="home_text_wrapper">
-      <h1>Hi I am Athreyjith </h1>
+      <h1>Hi I am  Athreyjith </h1>
 </div>
 <Animate
 play
 duration={2}
 delay={1}
 start={{
-    transform : 'translateY(550px)'
+    transform : 'translateY(551px)'
 }}
 end={{
     transform : 'translateX(0px)'
 }}
 
-><div className='home_contactme'>
+><div className='home_contactme' >
 <button className='home_contactme_button' onClick={navigatetocontactme}>contactme</button>
 </div></Animate>
 
